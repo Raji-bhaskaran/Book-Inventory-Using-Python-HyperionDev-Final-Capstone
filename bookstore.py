@@ -1,4 +1,5 @@
 import sqlite3
+#importing sqlite3
 
 db = sqlite3.connect('bookstore_db')
 cursor = db.cursor()  # Get a cursor object
